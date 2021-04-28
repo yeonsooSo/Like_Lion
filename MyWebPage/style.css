@@ -46,6 +46,10 @@ ul {
 .info {
   -webkit-text-stroke: 1px black;
 }
+.service_ {
+  color: #3353aa;
+  -webkit-text-stroke: 1px black;
+}
 .service:hover {
   background-color: rgb(103, 18, 214);
 }
@@ -63,6 +67,36 @@ a:hover {
 }
 
 /*dash board*/
+.service_name {
+  font-size: 50px;
+  color: rgb(110, 110, 110);
+  -webkit-text-stroke: 1px black;
+
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  font-family: "Rubik Mono One";
+
+  background: linear-gradient(
+    to right,
+    rgb(216, 216, 216) 50%,
+    rgb(105, 105, 105) 50%,
+    rgb(218, 185, 36)
+  );
+  background-size: 200%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: 0.5s ease-out;
+}
+.service_name:hover {
+  background-position: -100%;
+}
+.aka {
+  font-family: "Noto Serif KR";
+  margin-left: 10px;
+  /* margin-top: 5px; */
+}
 
 .dashboard {
   display: flex;
@@ -77,6 +111,10 @@ a:hover {
 .eng {
   font-family: "Rubik Mono One";
   font-weight: 100;
+}
+.problem {
+  color: rgb(175, 175, 175);
+  margin-bottom: 2px;
 }
 .comment {
   font-size: 10px;
@@ -93,7 +131,17 @@ a:hover {
   transition: none;
   -webkit-text-stroke: 1px black;
 }
-
+.description {
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: "Noto Serif KR";
+}
+.des_kr {
+  font-size: 28px;
+  margin-top: 2px;
+  border-left: 8px solid grey;
+  border-color: grey;
+}
 .highlight {
   color: white;
   -webkit-text-stroke: 1px black;
@@ -156,6 +204,16 @@ a:hover {
     transition: 0.7s;
     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff, 0 0 80px #fff,
       0 0 120px #fff, 0 0 160px #fff; */
+}
+.highlight_ {
+  font-weight: bold;
+  -webkit-text-stroke: 1px black;
+}
+.t1:hover {
+  background-color: #3353aa;
+}
+.t2:hover {
+  background-color: teal;
 }
 /*recent works*/
 
