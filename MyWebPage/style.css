@@ -80,8 +80,8 @@ a:hover {
   background: linear-gradient(
     to right,
     rgb(216, 216, 216) 50%,
-    rgb(105, 105, 105) 50%,
-    rgb(218, 185, 36)
+    rgb(216, 216, 216) 50%,
+    rgb(218, 145, 36)
   );
   background-size: 200%;
   background-clip: text;
@@ -95,7 +95,8 @@ a:hover {
 .aka {
   font-family: "Noto Serif KR";
   margin-left: 10px;
-  /* margin-top: 5px; */
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 .dashboard {
@@ -109,12 +110,23 @@ a:hover {
   font-weight: 1200;
 }
 .eng {
+  -webkit-text-stroke: 1px black;
   font-family: "Rubik Mono One";
   font-weight: 100;
 }
 .problem {
   color: rgb(175, 175, 175);
   margin-bottom: 2px;
+}
+.problem:hover {
+  color: seagreen;
+}
+.solution {
+  color: rgb(205, 205, 205);
+  margin-bottom: 2px;
+}
+.solution:hover {
+  color: rebeccapurple;
 }
 .comment {
   font-size: 10px;
@@ -139,8 +151,7 @@ a:hover {
 .des_kr {
   font-size: 28px;
   margin-top: 2px;
-  border-left: 8px solid grey;
-  border-color: grey;
+  border-left: 8px solid rgb(175, 175, 175);
 }
 .highlight {
   color: white;
@@ -206,14 +217,20 @@ a:hover {
       0 0 120px #fff, 0 0 160px #fff; */
 }
 .highlight_ {
-  font-weight: bold;
+  font-weight: 800;
   -webkit-text-stroke: 1px black;
 }
 .t1:hover {
   background-color: #3353aa;
 }
 .t2:hover {
-  background-color: teal;
+  background-color: #aa3361;
+}
+.t3:hover {
+  background-color: #aa6333;
+}
+.t4:hover {
+  background-color: #339caa;
 }
 /*recent works*/
 
