@@ -110,9 +110,9 @@ a:hover {
   font-weight: 1200;
 }
 .eng {
-  /* -webkit-text-stroke: 1px black; */
   font-family: "Rubik Mono One";
   font-weight: 100;
+  color: #3a3a3a;
 }
 .problem {
   -webkit-text-stroke: 1px rgb(31, 31, 31);
